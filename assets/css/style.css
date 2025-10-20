@@ -223,6 +223,9 @@ footer a {
   main article li {
     display: list-item;
   }
+  section h2 {
+    text-transform: capitalize;
+  }
   footer {
     font-size: 1.1em;
   }
@@ -249,6 +252,10 @@ footer a {
     font-size: 1.3em;
     font-weight: bold;
   }
+  table {
+    width: 70%;
+    margin: 50px auto;
+  }
   section h2 {
     text-transform: capitalize;
   }
@@ -272,4 +279,46 @@ footer a {
 /* DESKTOP */
 
 @media screen and (min-width: 1200px) {
+  header img {
+    display: inline-block;
+    line-height: 50px;
+    vertical-align: text-bottom;
+  }
+  header p {
+    display: inline-block;
+    line-height: 50px;
+    vertical-align: text-bottom;
+  }
+  header li {
+    display: inline-block;
+    line-height: 50px;
+    vertical-align: text-bottom;
+  }
+  section {
+    display: inline-block;
+    width: 49%;
+    vertical-align: text-bottom;
+  }
+  iframe {
+    display: inline-block;
+    width: 49%;
+    height: 230px;
+    vertical-align: text-bottom;
+  }
+  aside h2 {
+    font-size: 1.6em;
+  }
+  aside div {
+    display: inline-block;
+    width: 33%;
+    vertical-align: text-bottom;
+  }
+  footer p {
+    font-size: 1.3em;
+  }
+  footer address {
+    font-size: 1.3em;
+    margin-left: 17em;
+    margin-right: 17em;
+  }
 }
