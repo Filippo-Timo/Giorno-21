@@ -281,12 +281,12 @@ footer a {
 @media screen and (min-width: 1200px) {
   header div {
     display: inline-block;
-    line-height: auto;
+    line-height: 66px;
     vertical-align: 1.5em;
   }
   header nav {
     display: inline-block;
-    line-height: auto;
+    line-height: 66px;
     vertical-align: 1.5em;
   }
   header p {
