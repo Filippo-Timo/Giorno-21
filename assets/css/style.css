@@ -279,20 +279,22 @@ footer a {
 /* DESKTOP */
 
 @media screen and (min-width: 1200px) {
-  header img {
+  header div {
     display: inline-block;
-    line-height: 50px;
-    vertical-align: text-bottom;
+    line-height: auto;
+    vertical-align: 1.5em;
+  }
+  header nav {
+    display: inline-block;
+    line-height: auto;
+    vertical-align: 1.5em;
   }
   header p {
     display: inline-block;
-    line-height: 50px;
-    vertical-align: text-bottom;
+    margin: 0;
   }
-  header li {
-    display: inline-block;
-    line-height: 50px;
-    vertical-align: text-bottom;
+  header div img {
+    margin-bottom: 0;
   }
   section {
     display: inline-block;
